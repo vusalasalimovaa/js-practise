@@ -176,15 +176,29 @@
 // } 
 // console.log(factorial)
 
-let ad = "Vusala";
-let ters = ""
+// let ad = "Vusala";
+// let ters = ""
 
-for(let i=ad.length-1; i>=0; i--){
-    ters += ad[i]
+// for(let i=ad.length-1; i>=0; i--){
+//     ters += ad[i]
    
-}
-console.log(ters)
+// }
+// console.log(ters)
 
+let arr = [14,20,35,40,57,60,100];
+let sum = 0
+
+function result(){
+    for(let i=0; i<arr.length; i++){
+
+        if(arr[i]%20==0){
+            sum += arr[i]
+        }
+    }
+
+    return sum
+}
+console.log(result())
 
 
 
