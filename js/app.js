@@ -185,25 +185,71 @@
 // }
 // console.log(ters)
 
-let arr = [14,20,35,40,57,60,100];
-let sum = 0
+// let arr = [14,20,35,40,57,60,100];
+// let sum = 0
 
-function result(){
-    for(let i=0; i<arr.length; i++){
+// function result(){
+//     for(let i=0; i<arr.length; i++){
 
-        if(arr[i]%20==0){
-            sum += arr[i]
+//         if(arr[i]%20==0){
+//             sum += arr[i]
+//         }
+//     }
+
+//     return sum
+// }
+// console.log(result())
+
+// let cumle = prompt("Cumle daxil edin: ");
+// let simvols = prompt("Simvol daxil edin: ");
+
+// count = 0
+
+// function sentence(){
+//     for(let i = 0; i<cumle.length; i++){
+
+//         if(cumle[i] == simvols)
+//             count++
+        
+//     }
+
+//     return count
+// }
+// console.log(sentence())
+
+// let numbers = [23,341,4000,9,99,817,0];
+
+// function neceReqemli(){
+
+//     let count = 0;
+
+//     for(let i=0; i<numbers.length; i++){
+//         let num = numbers[i]
+//     }
+    
+
+//     // return numlength
+//     console.log(numlength)
+
+// }
+
+// console.log(neceReqemli())
+
+let sentence = prompt("");
+let uzunSoz = sentence[0]
+
+function enUzunSoz(){
+
+    for(let i = 0; i<sentence.length; i++){
+
+        if(sentence[i]> uzunSoz){
+            uzunSoz = sentence[i]
         }
     }
 
-    return sum
+    return uzunSoz
 }
-console.log(result())
-
-
-
-
-
+console.log(enUzunSoz())
 
 
 
